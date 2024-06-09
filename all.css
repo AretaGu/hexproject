@@ -93,7 +93,6 @@ table {
 }
 
 /* Banner */
-
 .banner {
 	background: #fafafa;
 }
@@ -325,6 +324,81 @@ table {
 	color:#3b3b3b;
 }
 
+/*footer區塊*/
+.footer {
+	background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true");
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px 0;
+}
+
+.footerlogo {
+	margin-bottom: 24px;
+}
+
+.footerleft p {
+	color: #3b3b3b;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.footerleft span {
+	color: #919191;
+	line-height: 24px;
+	margin-top: 24px;
+}
+
+.footermenu {
+	display: flex;
+	flex-direction: column;
+	width: 306px;
+	gap: 24px;
+}
+
+.footermenu a {
+	text-decoration: none;
+}
+
+.fillin {
+	background-color: #000000;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+}
+
+.fillin p {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.insta {
+	display: flex;
+	border-radius: 8px;
+	background-color: #ffffff;
+	align-items: center;
+	border: 1px solid #c1c1c1;
+}
+
+.insta p {
+	font-size: 20px;
+	color: #000000;
+}
+
+.facebook {
+	display: flex;
+	border-radius: 8px;
+	background-color: #ffffff;
+	align-items: center;
+	border: 1px solid #c1c1c1;
+}
+
+.facebook p {
+	font-size: 20px;
+	color: #000000;
+}
 
 /* 斷點一 */
 @media (max-width: 992px) {
@@ -381,6 +455,19 @@ table {
 	/* Works */
 	.display {
 		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 48px;
+	}
+
+	/* Footer */
+	.footer {
+		display: flex;
+		flex-direction: column;
+	}
+	.footerleft {
+		margin-bottom: 40px;
 	}
 }
 
